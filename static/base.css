@@ -140,9 +140,46 @@ button a:hover {
         padding-right: 150px;
     }
 
+    .header {
+        line-height: 30px;
+    } 
+
+    .header small{
+        font-weight: 100;
+    }
+
+    .hero-button {
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+
+    .cv{
+        font-weight: 500;
+        background-color: var(--Pr-Lavender);
+        color: var(--White);
+    }
+
+    .cv:hover{
+        font-weight: bold;
+        background-color: var(--White);
+        color: var(--Pr-Lavender);
+    }
+
+    .more{
+        padding: 10px 40px;
+        font-weight: bold;
+    }
+
+    .more:hover{
+        padding: 10px 40px;
+        background-color: var(--Pr-Lavender);
+        color: var(--White);
+    }
+
     .hero-image img{
         width: 450px;
         height: 350px;
         padding-right: 100px;
+        margin-top: -50px;
     }
 /* Hero Section Ends */
