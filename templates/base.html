@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de21470959.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- Header Nav -->
@@ -17,7 +19,7 @@
         <div class="container">
             <div class="header">
                 <div class="logo">The<span>Tech</span>Shoemaker</div>
-                <nav>
+                <nav class="mainMenu" id="myTopnav">
                     <ul>
                         <li><a href="#home" class="active">Home</a></li>
                         <li><a href="#about">About</a></li>
@@ -25,12 +27,15 @@
                         <li><a href="#blog">Blog</a></li>
                     </ul>
                     <button><a href="#contact">Contact Me</a></button>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>      
                 </nav>
             </div>
         </div>
     </header>
-
     <!-- Header Nav Ends -->
+    <!-- Hero Section Starts  -->
+    
+    <!-- Hero Section Ends -->
     {% block content %}
     
     {% endblock %}
@@ -38,6 +43,7 @@
 
 
     <!-- footer Nav Ends -->
+
     <script src="{% static 'index.js' %}"></script>
 </body>
 </html>

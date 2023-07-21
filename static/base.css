@@ -35,7 +35,7 @@ body{
 
 header{
     background-color: var(--Sr-Black);
-    padding: 40px 0;
+    padding: 15px 0;
 }
 
 header .header{
@@ -88,10 +88,44 @@ li .active{
 }
 
 button{
-    margin-left: 20px;
-    padding: 10px 5px;
+    margin-left: 25px;
+    padding: 10px 10px;
     background-color: transparent;
     border: 1.5px var(--Pr-Lavender) solid;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: var(--White);
+    transition: .4s;
+}
+
+button a {
+    color: var(--Pr-Lavender);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+button a:hover {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 /* Header Ends */
 
+/* Hero section Start */
+    
+/* Hero Section Ends */
