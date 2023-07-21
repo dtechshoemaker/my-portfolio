@@ -128,5 +128,21 @@ button a:hover {
 /* Header Ends */
 
 /* Hero section Start */
-    
+    .hero{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80vh;
+        padding: 100px 0;
+    }
+
+    .hero-text{
+        padding-right: 150px;
+    }
+
+    .hero-image img{
+        width: 450px;
+        height: 350px;
+        padding-right: 100px;
+    }
 /* Hero Section Ends */
