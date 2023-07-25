@@ -113,16 +113,9 @@ button a:hover {
 
 }
 
-@media only screen and (max-width: 600px) {
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+@media screen (max-width: 600px) {
     ul{
-        display: flex;
         flex-direction: column;
-
     }
 }
 /* Header Ends */
