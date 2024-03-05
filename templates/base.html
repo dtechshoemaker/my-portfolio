@@ -1,59 +1,17 @@
-{% load static %}
-
+<!-- base.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %} | dtechshoemaker</title>
-    <link rel="stylesheet" href="{% static 'base.css' %}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/de21470959.js" crossorigin="anonymous"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Django App</title>
+  <link rel="stylesheet" href="#">
 </head>
+
 <body>
-    <!-- Header Nav -->
-    <nav class="navbar">
-        <div class="logo">
-          <a href="#">The<span>Tech</span>Shoemaker</a>
-        </div>
-        <div class="burger">
-          <span></span>
-        </div>
-        <div class="navbar-content">
-          <ul class="navbar-list">
-            <li class="nav-item">
-              <a href="#" class="nav-link">Link 1</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Link 2</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link">Link 3</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link">Link 4</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Link 5</a>
-            </li>
-            <button class="btn">Contact Me</button>
-          </ul>
-        </div>
-      <!-- Header Nav Ends -->
-    <!-- Hero Section Starts  -->
-    
-    <!-- Hero Section Ends -->
-    {% block content %}
-    
-    {% endblock %}
-    <!-- footer Nav -->
-
-
-    <!-- footer Nav Ends -->
-
-    <script src="{% static 'index.js' %}"></script>
+  {% block content %}
+  {% endblock %}
 </body>
+
 </html>
